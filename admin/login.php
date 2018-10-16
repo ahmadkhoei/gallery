@@ -26,11 +26,7 @@ else {
 	
 }
 
-private static function (){}
-
-
-
- ?>
+?>
 
 
 
