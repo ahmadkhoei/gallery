@@ -31,13 +31,9 @@
                     //    echo $found_user->username;
 
 
-                    $user = new User();
-                    $user-> username = "Example_username";
-                    $user-> password = "Example_password";
-                    $user-> first_name = "John";
-                    $user-> last_name = "Doe";
-
-                    $user->create();
+                    // $user = new User();
+                    // $user-> username = "newafterstatic";              
+                    // $user->save();
 
 
                     // $user = User::find_users_by_id(2);
@@ -49,9 +45,23 @@
                     // $user->save();
 
                   
-                    // $user = User::find_users_by_id(5);
-                    // $user->username = "testupdate";
+                    // $user = User::find_users_by_id(13);
+                    // $user->username = "KomKIer";
+                    // $user->password = "JooMIjf";
+                    // $user->first_name = "PotSU";
+                    // $user->last_name = "david";
                     // $user->update();
+
+                    // $photos = Photo::find_all();
+                    // foreach ($photos as $photo) {
+                    //     echo $photo->title . "<br />"; 
+                    // }
+
+                    $photo = new Photo();
+                    $photo-> title = "New photo";              
+                    $photo-> size = "20";              
+                    
+                    $photo->create();
 
 
 
