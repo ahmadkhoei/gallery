@@ -57,13 +57,15 @@
                     //     echo $photo->title . "<br />"; 
                     // }
 
-                    $photo = new Photo();
-                    $photo-> title = "New photo";              
-                    $photo-> size = "20";              
+                    // $photo = new Photo();
+                    // $photo-> title = "New photo";              
+                    // $photo-> size = "20";              
                     
-                    $photo->create();
+                    // $photo->create();
 
-
+                    echo INCLUDES_PATH;
+                    echo DS;
+                    
 
 
                     ?>

@@ -25,6 +25,10 @@ class Photo extends Db_object {
         UPLOAD_ERR_EXTENSION    => "A PHP extension stopped the file upload."
     );
 
+    // This is passig $_FILES['uploaded_file']  as an argument
+    public function setfile($file) {
+        
+    }
 
 
 }
